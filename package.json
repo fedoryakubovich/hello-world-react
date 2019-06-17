@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
-    "chai": "^4.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint-config-prettier": "^4.3.0",
