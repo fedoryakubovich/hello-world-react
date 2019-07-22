@@ -1,0 +1,67 @@
+{
+  "name": "react-salute",
+  "version": "0.0.4",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepublishOnly": "NODE_ENV=production babel src/lib --out-dir dist"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "main": "./dist/index.js",
+  "keywords": [
+    "react",
+    "salute",
+    "react-salute",
+    "hello",
+    "world",
+    "prop-types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedoryakubovich/react-salute"
+  },
+  "author": {
+    "name": "Fedor Yakubovich",
+    "url": "https://github.com/fedoryakubovich"
+  },
+  "bugs": {
+    "url": "https://github.com/fedoryakubovich/react-salute/issues"
+  },
+  "files": [
+    "dist/index.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "license": "MIT"
+}
