@@ -5,7 +5,7 @@ const Examples = () => {
   return (
     <section>
       <ReactSalute />
-      <ReactSalute name="Fedor" />
+      <ReactSalute name="Foo" />
     </section>
   );
 };

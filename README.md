@@ -5,6 +5,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Documentation](#documentation)
+- [Examples](#examples)
 
 ## Installation
 
@@ -33,3 +34,7 @@ export default ReactSaluteExamples;
 | Name | Description                    | Type   | Default |
 | :--- | :----------------------------- | :----- | :------ |
 | name | Name of the one who is saluted | String | 'React' |
+
+## Examples
+
+You can see live examples of the react-salute package [here](https://react-salute.herokuapp.com/).
