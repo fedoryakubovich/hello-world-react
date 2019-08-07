@@ -1,4 +1,4 @@
-# React Salute &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fedoryakubovich/react-salute/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react-salute.svg?style=flat)](https://www.npmjs.com/package/react-salute)
+# React Salute &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fedoryakubovich/react-salute/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react-salute.svg?style=flat)](https://www.npmjs.com/package/react-salute) [![Build Status](https://travis-ci.com/fedoryakubovich/react-salute.svg?branch=master)](https://travis-ci.org/) [![Coverage Status](https://coveralls.io/repos/github/fedoryakubovich/react-salute/badge.svg?branch=master)](https://coveralls.io/github/fedoryakubovich/react-salute?branch=master)
 
 ## Table of Contents
 
