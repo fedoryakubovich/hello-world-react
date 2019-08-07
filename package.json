@@ -9,7 +9,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublishOnly": "cross-env NODE_ENV=production babel src/lib --out-dir dist"
+    "prepublishOnly": "cross-env NODE_ENV=production babel src/lib --out-dir dist",
+    "coverage": "react-scripts test --coverage --watchAll=false",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/lib/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
