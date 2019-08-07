@@ -1,6 +1,6 @@
 {
   "name": "react-salute",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "react": "^16.8.6"
   },
@@ -9,7 +9,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepublishOnly": "NODE_ENV=production babel src/lib --out-dir dist"
+    "prepublishOnly": "cross-env NODE_ENV=production babel src/lib --out-dir dist"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
+    "cross-env": "^5.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint-config-prettier": "^4.3.0",
